@@ -1,0 +1,184 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image: url("back1.jpg") ;
+    background-position:center ;
+    background-size: cover;
+}
+header{
+    display: flex;
+    background-color: black;
+    gap:500px;
+    
+}
+#bcd{
+    display: flex;
+    list-style: none;
+    margin:30px;
+    gap:10px;
+    margin-left:90px;
+    
+}
+
+#logo{
+    size: 30px;
+}
+#bcd h3{
+    color:white;
+    margin-top:18px;
+
+}
+#abc{
+    display: flex;
+    list-style: none;
+    gap:20px;
+    margin-top:50px;
+
+}
+#abc li{
+    color: white;
+}
+#abc li:hover{
+    color:aqua;
+    transition:0.5s;
+
+}
+main{
+    background-image: url("bg.jpeg");
+    background-position:center;
+	background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+#mobile{
+    height: 480px;
+    width: 550px;
+    margin-left: 5rem;
+    margin-top: 7rem;
+}
+
+#text{
+    color:white;    
+    font-size:3rem;
+    margin-top: 4rem;
+    text-shadow: 4px 4px 4px black;
+}
+
+#free{
+    color: black;
+    background-color:white;
+    text-shadow: 1px 1px 1px;
+    border-radius: 15px 15px 15px;
+    margin: 0.55rem;
+    padding: 0.55rem;
+
+}
+
+#subs:hover{
+    background-color: rgb(217, 217, 217);
+    transition: 0.5s;
+    cursor: pointer;
+}
+#vss{
+    background-color: aliceblue;
+    background-position:center;
+	background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+h2{
+    width: 100%;
+    background-color: white;
+    font-size: 3.5rem;
+    text-align: center; 
+    color: plum;
+    text-shadow: 2px 2px 2px black;
+}
+.card{ 
+    margin:10px;
+    padding:5px;
+}
+.card:hover{
+    cursor:pointer;
+    transition: box-shadow 0.3s;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:100px;
+    font-size: 3rem;
+    
+}
+footer{
+    background-color: black;
+    margin-top:10px;
+    margin-left:20px;
+    width:100%;
+    height: 100%;
+}
+#foot1{
+    display: flex;
+    margin:20px;
+}
+#spot{
+    display: flex;
+    list-style: none;
+}
+#foot2{
+    color: aliceblue;
+    gap:20px;
+}
+.first{
+    list-style: none;
+}
+#next{
+    background-color: purple;
+}
+#next li{
+    font-size: 1.5rem;
+    list-style: none;
+}
+#four{
+    justify-content: center;
+}
+ main{
+    padding: 30px;
+    display:flex;
+}
+ooter{
+    margin: -6px;
+    background-color: black;
+}
+#ends{
+    display: flex;
+    gap:16rem;
+}
+#ending{
+    list-style:none;
+    display: flex;
+    margin-left: 9.5rem;
+    margin: 5rem;;
+}
+#happy{
+    display: flex;
+}
+.ends{
+    height: 25px;
+    width: 25px;
+
+}
+#iconss{
+    display:flex;
+}
+.end ul{
+    text-decoration: none;
+}
+.end ul li{
+    color:antiquewhite;
+    text-decoration: none;
+    list-style: none;
+}
